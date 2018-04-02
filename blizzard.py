@@ -15,14 +15,12 @@ commandString = str("ping " + IP_TO_DDOS + " -t")
 
 for i in range(CMDS_TO_OPEN):
     
-    pyautogui.moveTo(200, 1050)
-    pyautogui.click()
-    
+    pyautogui.hotkey("winleft", "r")
+        
     pyautogui.press("C")
     pyautogui.press("M")
     pyautogui.press("D")
     pyautogui.press("enter")
-    
     time.sleep(1)
     
     for i in range(0, len(commandString)):
