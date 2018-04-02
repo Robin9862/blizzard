@@ -1,8 +1,6 @@
 # Blizzard
 # A fully automated DDOS starter for Python
 
-# Disclaimer: This program does not actually DDOS a website. It provides
-# a way to automate your computer to do it for you.
 
 import pyautogui     # Make sure you have me! If not, do pip install pyautogui
 import time     
