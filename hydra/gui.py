@@ -1,6 +1,7 @@
-# Blizzard
+# Hydra
 # A fully automated DDOS starter for Python
 
+# GUI Edition
 
 import pyautogui     # Make sure you have me! If not, do pip install pyautogui
 import time
