@@ -1,4 +1,4 @@
-# Blizzard
+# Hydra
 # A fully automated DDOS starter for Python
 
 
