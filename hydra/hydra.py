@@ -1,4 +1,4 @@
-# Hydra
+# Hydra v1.2
 # A fully automated DDOS starter for Python
 
 
@@ -23,9 +23,7 @@ for i in range(CMDS_TO_OPEN):
     pyautogui.press("enter")
     time.sleep(1)
     
-    for i in range(0, len(commandString)):
-        pyautogui.press(commandString[i])
-        
+    pyautogui.typewrite(commandString)
     pyautogui.press("enter")
 
 
